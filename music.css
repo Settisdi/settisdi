@@ -69,3 +69,29 @@ div {
     color: #fff;
     font-size: bolder;
 }
+.Buttoms {
+    display: inline;
+    list-style-type: none;
+    margin-left: 0px;  
+    padding-left: 0px;
+
+}
+
+.play,
+.back,
+.for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 10px;
+    
+    
+    
+}
+.back{
+    margin-left: 41.25px;
+}
+.for{
+    margin-right: 41.25px;
+}
