@@ -69,6 +69,15 @@ div {
     color: #fff;
     font-size: bolder;
 }
+#slider {
+    width: 240px;
+    height: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+
+
+}
 .Buttoms {
     display: inline;
     list-style-type: none;
