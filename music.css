@@ -95,3 +95,23 @@ div {
 .for{
     margin-right: 41.25px;
 }
+.back:hover{
+    border-color: #bebebe;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.for:hover{
+    border-color: #bebebe;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.play:hover {
+    border-color: #bebebe;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+    transition: 3s;
+}
