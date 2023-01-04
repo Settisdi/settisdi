@@ -23,6 +23,7 @@ div {
     background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
     transition: 3s;
 }
+
 .musicplayer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#fff;
@@ -31,4 +32,95 @@ div {
     margin-top: 0px;
     margin-bottom: 15px;
 
+}
+.image1 {
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-right: 35px;
+
+}
+.image1:hover {
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+
+}
+.music1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+
+}
+.songwriters {
+    color: #666666;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.songwriters:hover {
+    color: #2e2e2e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.time {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: bolder;
+}
+#slider {
+    width: 240px;
+    height: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+
+
+}
+.Buttoms {
+    display: inline;
+    list-style-type: none;
+    margin-left: 0px;  
+    padding-left: 0px;
+
+}
+
+.play,
+.back,
+.for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 10px;
+    
+    
+    
+}
+.back{
+    margin-left: 41.25px;
+}
+.for{
+    margin-right: 41.25px;
+}
+.back:hover{
+    border-color: #bebebe;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.for:hover{
+    border-color: #bebebe;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.play:hover {
+    border-color: #bebebe;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+    transition: 3s;
 }
